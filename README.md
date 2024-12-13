@@ -1,43 +1,20 @@
-# [Mediapipe-Facelandmarker-Demo](https://mediapipe-facelandmark-demo.vercel.app/) 
+# Generalizable Expression Transfer From Human to Rigged 3D Avatars
 
-Animate 3D avatar face using MediaPipe's face-landmark model.
+## Description
+An input image undergoes Mediapipe keypoints detection, control point conversion, and inverse kinematics, generating rig parameters to produce a deformed 3D mesh.
 
-This project aims to test and demonstrate the capabilities of MediaPipe's new face landmark model, which outputs 52 blendshapes. These blendshapes can be interactively tested with avatars from Ready Player Me, with additional features available for customizing these avatars.
-
-<img src="public/assets/demo/sample.gif" width="640" height="480" />
-
-## Prerequisites
-
-This project requires [Node.js](https://nodejs.org/en/download/) to be installed on your local machine.
-
-## Installation
-
+## How to Run the Project
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/jays0606/mediapipe-facelandmarker-demo.git
+   ```bash
+   git clone <repository_url>
    ```
-2. Navigate into the project directory:
-   ```sh
-   cd mediapipe-facelandmarker-demo
-   ```
-3. Install the necessary dependencies:
-   ```sh
+
+2. Install dependencies (Node.js version > 14 is required):
+   ```bash
    npm install
    ```
-4. Run the following command, Open your browser and visit http://localhost:3000 to view the project.
-    ```sh
-    npm run dev
-    ```
-## Built With
 
-This project was created using:
-
-- [Next.js 13](https://nextjs.org/)
-- [Vercel](https://vercel.com/)
-- [React](https://reactjs.org/)
-- [react-three-fiber](https://github.com/pmndrs/react-three-fiber)
-- [Three.js](https://threejs.org/)
-- [MediaPipe Face Landmarker](https://developers.google.com/mediapipe/api/solutions/js/tasks-vision.facelandmarker)
-
-## Contact
-Jaeho Shin - jaehoshin62@gmail.com
+3. Start the development server:
+   ```bash
+   npm run dev
+   
