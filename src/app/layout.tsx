@@ -19,7 +19,7 @@ export default function RootLayout({
       <body className={inter.className}>
         {children}
         <Link
-          href="https://github.com/jays0606/mediapipe-facelandmark-demo"
+          href="https://github.com/karthikjodangi/mfds.git"
           className="group fixed bottom-5 right-5"
           aria-label="TaxPal on GitHub"
         >
